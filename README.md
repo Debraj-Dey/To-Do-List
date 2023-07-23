@@ -10,6 +10,10 @@ This simple To-Do-list web app is done with HTML, Tailwindcss, and JavaScript.It
 
 - **Remove tasks:** Click on the cross (X) sign next to a task to remove it from the list.
 
+## Demo
+
+https://debraj-dey.github.io/To-Do-List/ 
+
 ## Screenshots
 
 ![Screenshot 2023-07-23 123740](https://github.com/Debraj-Dey/To-Do-List/assets/115916671/a9f7ce4d-0ea7-4d26-9583-e68fea5be5fe)
