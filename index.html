@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO-List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="m-0 p-0 box-border">
+    <main>
+        <div class="bg-gradient-to-r from-indigo-800 via-purple-800 to-pink-900 w-full h-screen m-0 p-2">
+
+            <div
+                class="to-do-list bg-white dark:bg-black dark:shadow-[0px_0px_28px_3px_#718096] shadow-[0px_0px_28px_3px_#1a202c] w-full max-w-xl mx-auto px-7 py-10 rounded-lg mt-10">
+                <h2 class="flex text-2xl dark:text-white font-extrabold">To-Do-List<img class="ml-4 w-10"
+                        src="images/icon.png" alt="icons">
+                </h2>
+
+                <div class="row flex dark:bg-neutral-800 bg-gray-100 justify-between mt-9 rounded-full pl-5">
+                    <input class="flex-1 bg-transparent p-2 border-none outline-none dark:text-white" type="text"
+                        id="input-box" placeholder="Add your task">
+                    <button class="bg-red-500 hover:bg-red-600 py-3 px-10 text-white text-base font-bold rounded-3xl"
+                        onclick="addTask()">Add</button>
+                </div>
+
+                <ul id="list-container" class="list-none text-lg py-4 dark:text-white">
+                    <!-- The tasks will be shown here  -->
+                </ul>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 text-center mb-4 text-white font-bold">
+                &#169; Made by Debraj
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
